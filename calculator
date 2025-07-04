@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    int m;
+    int menu;
+    cin>>n;
+    cin>>m;
+    cin>>menu;
+    switch (menu)
+    {
+    case 1:
+        cout<<n+m;
+        break;
+    case 2:
+        cout<<n-m;
+        break;
+    case 3:
+        cout<<n*m;
+        break;
+    case 4:
+        cout<<n/m;
+        break;
+        
+    default:
+        cout<<"Invalid";
+        break;
+    }
+}
